@@ -110,8 +110,51 @@
 
   <main>
     <!-- deal of the day -->
-    <section class="py-36">
-      <!-- timer section -->
+    <section class="py-28">
+
+      <!-- text & timer section -->
+      <div class="pb-12 flex gap-52">
+
+        <!-- text -->
+        <div>
+          <h3 class="font-extrabold text-5xl mb-6">Deal of the day</h3>
+          <p class="font-medium text-base">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+
+        <!-- timer -->
+        <div>
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col p-2 bg-white text-black">
+              <span class="countdown font-extrabold text-5xl">
+                <span style="--value:29;"></span>
+              </span>
+              Days
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical relative my-6"></i>
+            <div class="flex flex-col p-2 bg-white text-black">
+              <span class="countdown font-extrabold text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              Hours
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical relative my-6"></i> 
+            <div class="flex flex-col p-2 bg-white text-black">
+              <span class="countdown font-extrabold text-5xl">
+                <span style="--value:25;"></span>
+              </span>
+              Minuties
+            </div> 
+            <i class="fa-solid fa-ellipsis-vertical relative my-6"></i>
+            <div class="flex flex-col p-2 bg-white text-black">
+              <span class="countdown font-extrabold text-5xl">
+                <span style="--value:08;"></span>
+              </span>
+              Seconds
+            </div>
+          </div>
+        </div>
+        
+      </div>
 
       <!-- card modals & btn section -->
 
